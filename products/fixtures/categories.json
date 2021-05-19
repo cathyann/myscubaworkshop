@@ -1,0 +1,13 @@
+[{"pk": 1, "model": "products.category", "fields": {"name": "nbr_oring", "friendly_name": "NBR Oring"}}, {
+"pk": 2, "model": "products.category", "fields": {"name": "fkm_oring", "friendly_name": "FKM Oring"}}, {
+"pk": 3, "model": "products.category", "fields": {"name": "dive_computer_oring", "friendly_name": "Dive Computer Oring"}}, {
+"pk": 4, "model": "products.category", "fields": {"name": "cameras_accesories_oring", "friendly_name": "Cameras & Accesories Oring"}}, {
+"pk": 5, "model": "products.category", "fields": {"name": "leisure_trips", "friendly_name": "Leisure Trips"}}, {
+"pk": 6, "model": "products.category", "fields": {"name": "courses", "friendly_name": "Courses"}}, {
+"pk": 7, "model": "products.category", "fields": {"name": "regulator_services", "friendly_name": "Regulator Services"}}, {
+"pk": 8, "model": "products.category", "fields": {"name": "bcd_services", "friendly_name": "BCD Services"}}, {
+"pk": 9, "model": "products.category", "fields": {"name": "dive_computer_services", "friendly_name": "Dive Computer Services"}}, {
+"pk": 9, "model": "products.category", "fields": {"name": "camera_housing_services", "friendly_name": "Camera Housing Services"}}, {
+"pk": 9, "model": "products.category", "fields": {"name": "new_arrivals", "friendly_name": "New Arrivals"}}, {
+"pk": 9, "model": "products.category", "fields": {"name": "clearance", "friendly_name": "Clearance"}}, {
+"pk": 9, "model": "products.category", "fields": {"name": "deals", "friendly_name": "Deals"}}]
