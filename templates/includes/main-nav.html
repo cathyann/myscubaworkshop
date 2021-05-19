@@ -1,0 +1,65 @@
+<div class="collapse navbar-collapse" id="main-nav">
+    <ul class="navbar-nav w-auto mx-auto">
+        <li class="nav-item d-block d-md-none">
+            <a href="{% url 'home' %}" class="logo-font font-weight-bold nav-link text-black mr-5" id="home-link">
+                Home
+            </a>
+        </li>
+        <li class="nav-item dropdown">
+            <a href="#" class="logo-font font-weight-bold nav-link text-black mr-5" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                All Products
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <!--<a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item">By Rating</a>-->
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item">By Category</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a href="#" class="logo-font font-weight-bold nav-link text-black mr-5" id="orings-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Orings
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="orings-link">
+                <a href="{% url 'products' %}?category=nbr_oring" class="dropdown-item">NBR Oring</a>
+                <a href="{% url 'products' %}?category=fkm_oring" class="dropdown-item">FKM Oring</a>
+                <a href="{% url 'products' %}?category=dive_computer_oring" class="dropdown-item">Dive Computer Oring</a>
+                <a href="{% url 'products' %}?category=cameras_accesories_oring" class="dropdown-item">Cameras & Accesories Oring</a>
+                <a href="{% url 'products' %}?category=nbr_oring, fkm_oring, dive_computer_oring, cameras_accesories_oring" class="dropdown-item">All Orings</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a href="#" class="logo-font font-weight-bold nav-link text-black mr-5" id="services-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="services-link">
+                <a href="{% url 'products' %}?category=regulator_services" class="dropdown-item">Regulator Services</a>
+                <a href="{% url 'products' %}?category=bcd_services" class="dropdown-item">BCD Services</a>
+                <a href="{% url 'products' %}?category=dive_computer_services" class="dropdown-item">Dive Computer Services</a>
+                <a href="{% url 'products' %}?category=camera_housing_services" class="dropdown-item">Camera Housing Services</a>
+                <a href="{% url 'products' %}?category=regulator_services, bcd_services, dive_computer_services, camera_housing_services" class="dropdown-item">All Services</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a href="#" class="logo-font font-weight-bold nav-link text-black mr-5" id="leisure-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Leisure & Courses
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="leisure-link">
+                <a href="{% url 'products' %}?category=leisure_trips" class="dropdown-item">Leisure Trips</a>
+                <a href="{% url 'products' %}?category=courses" class="dropdown-item">Courses</a>
+                <a href="{% url 'products' %}?category=leisure_trips, courses" class="dropdown-item">All Leisure & Courses</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a href="#" class="logo-font font-weight-bold nav-link text-black mr-5" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Special Offers
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
+            </div>
+        </li>
+    </ul>
+</div>
