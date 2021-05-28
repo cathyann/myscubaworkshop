@@ -3,11 +3,23 @@ html {
 }
 
 body {
-    background: url('{{ media_url }}home_background.jpg') no-repeat center center fixed;
+    background: no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
+}
+
+.home {
+    background-image: url('/media/home_background.jpg')
+}
+
+.comingsoon {
+    background-image: url('/media/comingsoon.jpg')
+}
+
+h1 {
+    text-shadow: 3px 3px #000000;
 }
 
 /* from Bulma */
